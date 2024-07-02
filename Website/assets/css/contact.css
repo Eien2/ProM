@@ -1,0 +1,95 @@
+/*                 FORM                                   */
+
+#contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#form-title {
+  color: var(--neutral900);
+  font-family: inter-regular;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+#form-desc {
+  margin: 15px 0px;
+  color: var(--neutral300);
+}
+
+#first-name-label {
+  color: var(--neutral900);
+  margin: 20px 0px 8px 0px;
+}
+
+#first-name {
+  color: var(--neutral400);
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid var(--neutral700);
+}
+
+#last-name-label {
+  color: var(--neutral900);
+  margin: 20px 0px 8px 0px;
+}
+
+#last-name {
+  color: var(--neutral400);
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid var(--neutral700);
+}
+
+#email-label {
+  color: var(--neutral900);
+  margin: 20px 0px 8px 0px;
+}
+
+#email {
+  color: var(--neutral400);
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid var(--neutral700);
+}
+
+#message-label {
+  color: var(--neutral900);
+  margin: 20px 0px 8px 0px;
+}
+
+#message {
+  color: var(--neutral400);
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid var(--neutral700);
+}
+
+#submit-btn {
+  background-color: var(--green600);
+  border: none;
+  border-radius: 5px;
+  padding: 7px;
+  margin-top: 10px;
+  color: var(--neutral100);
+  transition: all 0.3s ease-in-out;
+}
+
+#submit-btn:hover {
+  background-color: var(--green700);
+}
+
+#contact-img {
+  margin-left: 30px;
+  width: 308px;
+  height: 468px;
+}

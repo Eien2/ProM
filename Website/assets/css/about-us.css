@@ -1,0 +1,60 @@
+/*                 INTRODUCTION                           */
+
+#introduction {
+  width: 700px;
+}
+
+#introduction-title {
+  font-size: 2rem;
+  color: var(--neutral900);
+}
+
+#introduction-desc {
+  line-height: 1.5;
+  color: var(--neutral400);
+}
+
+/*                 ABOUT US IMG                           */
+
+#about-us-img {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 740.43px;
+  height: 290px;
+}
+
+/*                 HOW IT STARTED                         */
+
+#how-it-started {
+  width: 700px;
+}
+
+#how-it-started-title {
+  font-size: 2rem;
+  color: var(--neutral900);
+}
+
+#how-it-started-desc {
+  line-height: 1.5;
+  color: var(--neutral400);
+}
+
+/*                 FUN FACTS                              */
+
+#fun-facts {
+  width: 700px;
+}
+
+#fun-facts-title {
+  font-size: 2rem;
+  color: var(--neutral900);
+}
+
+#fun-facts-list {
+  color: var(--neutral400);
+}
+
+#fun-facts-li {
+  margin-top: 20px;
+  color: var(--neutral400);
+}

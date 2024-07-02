@@ -1,0 +1,359 @@
+/*                 WORKING SECTION                        */
+
+#working-sec {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--neutral900);
+  font-family: inter-regular;
+}
+
+/*                 FOOTER                                 */
+
+#footer {
+  position: relative;
+}
+
+/*                 SUB HEADER                             */
+
+#sub-header-btns {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#sub-header {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* TITLE INPUT */
+#title-input {
+  display: flex;
+  flex-direction: row;
+}
+
+#input-head-title {
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  font-family: inter-regular;
+  font-size: 1.7rem;
+}
+
+#submit-title {
+  font-family: inter-regular;
+  font-size: 1.7rem;
+  color: var(--neutral100);
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--mint600);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#submit-title:hover {
+  background-color: var(--mint500);
+}
+
+/*                 ADD,CLEAR,SAVE,UPLOAD BUTTONS                          */
+
+/* ADD BUTTON */
+#add-btn {
+  color: var(--neutral100);
+  background-color: var(--green600);
+  padding: 8px;
+  margin-right: 8px;
+  font-size: 1.7rem;
+  font-family: inter-regular;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  height: 40px;
+}
+
+#add-btn:hover {
+  background-color: var(--green500);
+  padding: 11px;
+}
+
+/* CLEAR BUTTON */
+#del-btn {
+  color: var(--neutral100);
+  background-color: var(--red600);
+  padding: 8px;
+  margin-right: 8px;
+  font-size: 1.7rem;
+  font-family: inter-regular;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  height: 40px;
+}
+
+#del-btn:hover {
+  padding: 11px;
+  background-color: var(--red400);
+}
+
+/* SAVE BUTTON */
+#save-btn {
+  color: var(--neutral100);
+  background-color: var(--orange600);
+  padding: 8px;
+  margin-right: 8px;
+  font-size: 1.7rem;
+  font-family: inter-regular;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  height: 40px;
+}
+
+#save-btn:hover {
+  padding: 11px;
+  background-color: var(--orange500);
+}
+
+/* UPLOAD BUTTON */
+#upload-btn {
+  color: var(--neutral100);
+  background-color: var(--blue600);
+  padding: 8px;
+  margin-right: 8px;
+  font-size: 1.7rem;
+  font-family: inter-regular;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  height: 40px;
+}
+
+#upload-btn:hover {
+  padding: 11px;
+  background-color: var(--blue400);
+}
+
+/*                 GENERAL MANAGE CARDS                  */
+
+#manage-cards {
+  display: flex;
+  flex-direction: row;
+}
+
+/*                 MINUS AND PLUS BUTTONS                 */
+
+/* MAIN MANAGE BUTTONS */
+#main-manage-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+/* MAIN MINUS BUTTON */
+.main-minus-btn {
+  cursor: pointer;
+  color: var(--neutral100);
+  background-color: var(--red500);
+  border: none;
+  width: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.main-minus-btn:hover {
+  background-color: var(--red600);
+}
+
+/* MAIN PLUS BTN */
+.main-plus-btn {
+  color: var(--neutral100);
+  cursor: pointer;
+  background-color: var(--green500);
+  border: none;
+  width: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.main-plus-btn:hover {
+  background-color: var(--green600);
+}
+
+/* INNER PLUS BUTTON */
+#inner-plus-btn {
+  color: var(--neutral100);
+  cursor: pointer;
+  background-color: var(--green500);
+  border: none;
+  width: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+#inner-plus-btn:hover {
+  background-color: var(--green600);
+}
+
+/* INNER MINUS BUTTON */
+.inner-minus-btn {
+  cursor: pointer;
+  color: var(--neutral100);
+  background-color: var(--red500);
+  border: none;
+  width: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.inner-minus-btn:hover {
+  background-color: var(--red600);
+}
+
+/* OUTER MINUS BUTTON */
+#outer-inner-minus-btn {
+  cursor: pointer;
+  color: var(--neutral100);
+  background-color: var(--red500);
+  border: none;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+#outer-inner-minus-btn:hover {
+  background-color: var(--red600);
+}
+
+/*                 MAIN MANAGE CARD                       */
+
+#main-manage-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.main-manage-card {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.main-manage-card-title {
+  border: 2px solid var(--mint500);
+  border-top: none;
+  padding: 3px;
+  text-align: center;
+  font-family: 2rem;
+  color: var(--neutral900);
+}
+
+#main-manage-card-title:focus {
+  outline: var(--mint800);
+}
+
+/*                 INNER MANAGE CARD                      */
+
+#inner-manage-cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.inner-manage-card {
+  width: 150px;
+  display: flex;
+  margin-bottom: 25px;
+  flex-direction: column;
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+.inner-manage-card-title {
+  padding: 3px;
+  margin: 0;
+  text-align: center;
+  font-family: 2rem;
+  color: var(--neutral900);
+  border-left: 2px solid var(--mint500) !important;
+  border-right: 2px solid var(--mint500) !important;
+  border-bottom: 2px solid var(--mint500) !important;
+  border: none;
+}
+
+.inner-manage-card-title:focus {
+  outline: none;
+}
+
+.inner-manage-card-desc {
+  padding: 5px;
+  margin: 0;
+  border: 2px solid var(--mint500);
+  border-top: none;
+}
+
+.inner-manage-card-desc:focus {
+  outline: none;
+}
+
+#inner-manage-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+/*                 OUTER INNER MANAGE CARD                */
+
+#outer-inner-manage-cards {
+  display: flex;
+  flex-direction: row;
+}
+
+#outer-inner-manage-card {
+  width: 150px;
+  display: flex;
+  margin-bottom: 25px;
+  flex-direction: column;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 25px;
+  position: relative;
+  right: 240px;
+}
+
+#outer-inner-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+#outer-inner-manage-card-title {
+  padding: 3px;
+  margin: 0;
+  text-align: center;
+  font-family: 2rem;
+  color: var(--neutral900);
+  border-left: 2px solid var(--mint500) !important;
+  border-right: 2px solid var(--mint500) !important;
+  border-bottom: 2px solid var(--mint500) !important;
+  border: none;
+}
+
+#outer-inner-manage-card-title:focus {
+  outline: none;
+}
+
+#outer-inner-manage-card-desc {
+  padding: 5px;
+  margin: 0;
+  border: 2px solid var(--mint500);
+  border-top: none;
+}
+
+#outer-inner-manage-card-desc:focus {
+  outline: none;
+}
