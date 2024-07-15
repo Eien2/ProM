@@ -5,11 +5,9 @@
    
 **2. Explain:**
 
-    - Ok, so the website itself is simple.
-    
-    - A button adds a card and you can change his status, etc.
-    
-    - And some basic options like numbering cards.
+   - Ok, so the website itself is simple.
+   - A button adds a card and you can change his status, etc.
+   - And some basic options like numbering cards.
 
 **3. Feel Free to Ask If you need something:**
 
