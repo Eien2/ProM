@@ -14,4 +14,4 @@
 
 **4. preview**
 
-![Home Page](https://github.com/user-attachments/assets/daba8e22-958b-4199-a457-f3c1b6dac086)
+![Home-Page-Preview](https://github.com/user-attachments/assets/f41555c2-597e-4486-a67c-0f3868ed2e46)
