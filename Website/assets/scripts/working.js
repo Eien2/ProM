@@ -420,6 +420,7 @@ document.addEventListener("DOMContentLoaded", () => {
     navLinks.forEach((link) => {
       link.classList.add("dark-mode-text");
     });
+    saveTheme();
   };
 
   const lightModeFun = () => {
@@ -431,7 +432,28 @@ document.addEventListener("DOMContentLoaded", () => {
     navLinks.forEach((link) => {
       link.classList.remove("dark-mode-text");
     });
+    saveTheme();
   };
+
+  /* Save theme function */
+  function saveTheme() {
+    localStorage.setItem(
+      "theme",
+      JSON.stringify(theme.classList.contains("dark-mode")),
+    );
+  }
+
+  /* Get theme function */
+  function getTheme() {
+    const storageTheme = JSON.parse(localStorage.getItem("theme"));
+    if (storageTheme) {
+      darkModeFun();
+    } else {
+      lightModeFun();
+    }
+  }
+
+  getTheme();
 
   /*                    BUTTONS                     */
 
