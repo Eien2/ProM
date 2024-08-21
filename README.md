@@ -1,7 +1,7 @@
 # HELLO, This is my Project Management Website
 
 **1. Link to site:**
-   https://brzdac3er.github.io/ProM/Content/home
+   https://Eien2.github.io/ProM/Content/home
    
 **2. Explain:**
 
@@ -14,7 +14,7 @@
 - Discord: eien_01
   
 **4. FAQ**
-- For now, the page has only support for PC users.
+- For now, the page only supports PC users.
 - Mobile support will be in the future.
 
 **5. preview**
